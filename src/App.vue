@@ -4,6 +4,10 @@
   你好，请打开控制台
   <br/>
   {{ msg }}
+  <br/>
+  bianyi('内容')  //编译城表情语言
+  <br/>
+  jieshi('内容')  //解释表情语言
 </template>
 
 <script>
