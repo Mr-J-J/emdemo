@@ -5,9 +5,9 @@
   <br/>
   {{ msg }}
   <br/>
-  bianyi('内容')  //编译城表情语言
+  bianyi('内容')
   <br/>
-  jieshi('内容')  //解释表情语言
+  jieshi('内容')
 </template>
 
 <script>
