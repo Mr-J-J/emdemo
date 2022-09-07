@@ -1,15 +1,20 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <br/>
+  你好，请打开控制台
+  <br/>
+  {{ msg }}
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  data() {
+    return {
+      msg: this.$em.chouxiang('你好，请打开控制台')
+    }
+  },
+  onload(){
   }
 }
 </script>
